@@ -9,7 +9,7 @@ var password = generator.generate({
     length: 16,
     numbers: true
     });
- client.channels.get('Id').send("https://discord.gift/" + password); //Channel ID
+ client.channels.get('638435945279913998').send("https://discord.gift/" + password); //Channel ID
  i++;
 }
  });
