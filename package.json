@@ -1,4 +1,21 @@
 {
+  "name": "Kahrbaa",
+  "version": "2.1.0",
+  "description": "-- Script Spam , Farm Credit By Kahrbaa --",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs": "^0.0.2",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.6",
+  "request": "^2.85.0"
+  },
+  "engines": {
+    "node": "8.x"
+  }
   "name": "generate-password",
   "version": "1.4.2",
   "description": "Easy library for generating unique passwords.",
@@ -9,31 +26,4 @@
     "coverage": "sh ./test/coverage.sh",
     "lint": "./node_modules/.bin/eslint src test main.js example.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/brendanashworth/generate-password"
-  },
-  "keywords": [
-    "generate",
-    "password",
-    "generator",
-    "unique"
-  ],
-  "author": "Brendan Ashworth",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brendanashworth/generate-password/issues"
-  },
-  "homepage": "https://github.com/brendanashworth/generate-password",
-  "dependencies": {},
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "codecov": "^1.0.1",
-    "eslint": "^2.13.1",
-    "jscover": "^1.0.0",
-    "discord.js": "^11.3.2",
-    "mocha": "^2.0.1",
-    "mocha-lcov-reporter": "^1.2.0",
-    "underscore": "^1.7.0"
-  }
 }
