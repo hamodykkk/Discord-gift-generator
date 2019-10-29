@@ -14,4 +14,4 @@ var password = generator.generate({
 }
  });
  
-client.login('token'); //Bot Token 
+client.login(process.env.TOKEN);
