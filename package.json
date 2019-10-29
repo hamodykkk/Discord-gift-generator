@@ -31,6 +31,7 @@
     "codecov": "^1.0.1",
     "eslint": "^2.13.1",
     "jscover": "^1.0.0",
+    "discord.js": "^11.3.2",
     "mocha": "^2.0.1",
     "mocha-lcov-reporter": "^1.2.0",
     "underscore": "^1.7.0"
