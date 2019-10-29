@@ -16,14 +16,5 @@
   "engines": {
     "node": "8.x"
   }
-  "name": "generate-password",
-  "version": "1.4.2",
-  "description": "Easy library for generating unique passwords.",
-  "main": "main.js",
-  "types": "src/generate.d.ts",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha",
-    "coverage": "sh ./test/coverage.sh",
-    "lint": "./node_modules/.bin/eslint src test main.js example.js"
-  },
+
 }
